@@ -8,20 +8,22 @@ public class hellocsc_combo {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("hello combo class how are ya?");
-		
-		String answer = input.nextLine();
-		
-		System.out.println("you said: " + answer +"!");
-		
-		System.out.println("enter two numbers:");
-		
-		int num1 = input.nextInt();
-		int num2 = input.nextInt();
-		
-		int sum = num1 + num2;
-		
-		System.out.println(sum);
+//		System.out.println("hello combo class how are ya?");
+//		
+//		String answer = input.nextLine();
+//		
+//		System.out.println("you said: " + answer +"!");
+//		
+//		System.out.println("enter two numbers:");
+//		
+//		int num1 = input.nextInt();
+//		int num2 = input.nextInt();
+//		
+//		int sum = num1 + num2;
+		char letter;
+		letter=input.next().charAt(0);
+		System.out.println(letter);
+//		System.out.println(sum);
 	}
 
 }
