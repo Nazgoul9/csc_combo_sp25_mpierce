@@ -49,13 +49,14 @@ public class loopsies {
 			}
 		}
 		String another = "yes";
-		int people;
+		int people=0;
 		while (another.charAt(0)=='y') {
 			people ++;
 			
 			System.out.println("are there more people");
 			another = input.next();
-			System.out.println(people);
+
+		System.out.println(people);
 		}
 		//now for loops
 		int a=0;
