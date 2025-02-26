@@ -1,4 +1,4 @@
-package stringsExersises;
+
 
 import java.util.Scanner;
 

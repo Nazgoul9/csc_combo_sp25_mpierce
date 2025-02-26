@@ -9,7 +9,7 @@
  * date 2/25/25															*
  * 																		*
  ************************************************************************/
-package stringsExersises;
+
 
 import java.util.Scanner;
 
