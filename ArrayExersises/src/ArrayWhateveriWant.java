@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 
-public class arrayWhateverIWant {
+public class ArrayWhateveriWant {
 	static Random rand = new Random();
 	public static void main(String[] args) {
 		

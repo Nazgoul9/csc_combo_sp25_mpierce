@@ -12,7 +12,7 @@ public class stringtime {
 		System.out.println("enter seccond word");
 		word += input.next();
 		System.out.println(word);
-		// TODO Auto-generated method stub
+		if(word.endsWith("ly"))System.out.println("yay");
 
 	}
 
