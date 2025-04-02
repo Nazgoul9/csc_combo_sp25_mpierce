@@ -17,8 +17,6 @@ public class stringSorting {
 		printArray(stng2,"string 2");
 		sortAZ(stng);
 		printArray(stng,"sorted string");
-		
-
 	}
 	
 	public static void printArray(String[] myArray,String name) {
@@ -31,14 +29,12 @@ public class stringSorting {
 		for (int i = 0; i < str.length/2; i++) {
 			String temp =str[i];
 			str[i]=str[str.length-(1+i)];
-			str[str.length-(1+i)]=temp;
-			
+			str[str.length-(1+i)]=temp;		
 		}
 		return str;
 	}
 	public static String[] sortAZ(String str[])
 	{
-
 		String temp;
 		int count = 0;
 		for (int i = 0; i < str.length; i++) {
@@ -51,14 +47,9 @@ public class stringSorting {
 					str[i]=str[count];
 					str[count]=temp;
 				}
-			}
-			
-			
+			}			
 		}
 		return str;
 	}
-	
-	
-	
 
 }

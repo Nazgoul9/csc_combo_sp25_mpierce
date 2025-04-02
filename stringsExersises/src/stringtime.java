@@ -13,6 +13,7 @@ public class stringtime {
 		word += input.next();
 		System.out.println(word);
 		if(word.endsWith("ly"))System.out.println("yay");
+		
 
 	}
 

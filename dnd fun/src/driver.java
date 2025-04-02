@@ -29,7 +29,7 @@ public class driver {
 	}
 	public static void prettyprint(Character character)
 	{
-		System.out.println(character.getName() + has);
+		System.out.println(character.getName() + "has" + character.getHealth());
 	}
 
 }
