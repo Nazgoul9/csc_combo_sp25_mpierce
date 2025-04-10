@@ -2,7 +2,7 @@
  * this program will print lyrics for the song 99 bottles of beer on the wall
  * but it asks for how many bottles to start with and then starts the song with 
  * that many bottles
- * @author morga
+ * @author Morgan pierce
  * 
  */
 

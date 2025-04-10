@@ -6,14 +6,11 @@
 *@date 2/17/25 
 */
 
-package sandbox;
-
 import java.util.Scanner;
 
 public class tempconversion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		
 		double fahrenheitcelsius = (0.55555);
@@ -34,3 +31,4 @@ public class tempconversion {
 	}
 
 }
+

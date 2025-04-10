@@ -2,7 +2,7 @@
 public class Card {
 	private final int suit;
 	private final int rank;
-	private static final String [] suits = {"clubs","diamonds","hearts","spades"};
+	private static final String [] suits = {"diamonds","clubs","hearts","spades"};
 	private static final String [] ranks = {null, "Ace", "2","3","4","5","6","7","8","9","10","Jack","Queen","King"};
 
 	public Card(int rank, int suit) {
@@ -25,8 +25,6 @@ public class Card {
 		if(this.rank<that.rank) return -1;
 		if(this.rank>that.rank) return 1;
 		return 0;
-		
-		
 		
 	}
 	@Override

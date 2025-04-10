@@ -15,9 +15,6 @@
  *
  *@author morga
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-package sandbox;
-
 import java.util.Scanner;
 
 public class gradecalculator {
@@ -59,6 +56,7 @@ public class gradecalculator {
 		}else {
 		System.out.printf("your letter grade grade is %S",lettergrade);
 		}
+		input.close();
 	}
 
 }
