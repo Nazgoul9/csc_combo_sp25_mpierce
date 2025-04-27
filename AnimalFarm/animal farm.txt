@@ -1,0 +1,13 @@
+animal
+boo
+75
+275
+pig
+oink
+70
+600
+oink
+cow
+moo
+75
+550
