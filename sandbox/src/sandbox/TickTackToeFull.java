@@ -12,9 +12,9 @@ public class TickTackToeFull {
 
 		char[] arr = new char[9];
 
-		while(checkWinner(arr, player) == 0 && continues > 0){
+		while(checkWinner(player, arr) == 0 && continues > 0){
 
-		board(arr);
+		board(arr,player);
 
 		continues = move(arr, player);
 
@@ -22,7 +22,7 @@ public class TickTackToeFull {
 
 		}
 
-		if(checkWinner == 0) {
+		if(checkWinner(player, arr) == 0) {
 
 		System.out.println("Tie.");
 
@@ -30,21 +30,17 @@ public class TickTackToeFull {
 
 		else {
 
-		System.out.println("Player " + checkWinner() + " is the winner.");
+		System.out.println("Player " + checkWinner(player, arr) + " is the winner.");
 
 		}
 
-		}
+		
 
 		// Code for the board and the moves on the board
+		
+		
 
-		public class TicTacToe {
-
-		public static void main(String[] args) {
-
-		char[] arr = new char[9];
-
-		int player = 1;
+		
 
 		for(int i = 0; i < 10; i++)
 
@@ -126,7 +122,7 @@ public class TickTackToeFull {
 
 		}
 
-		}
+		
 
 		private static int checkWinner(int player, char[] arr) {
 
