@@ -37,6 +37,7 @@ public class GameGrid extends Canvas {
 	public Chip getChip(int r, int c) {
 		return array[r][c];
 	}
+	public 
 
 	public void turnOff(int r, int c) {
 		array[r][c].turnOff();
