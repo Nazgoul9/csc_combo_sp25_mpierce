@@ -1,9 +1,18 @@
 
+import java.awt.MouseInfo;
+import java.awt.Point;
+import java.awt.PointerInfo;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.Scanner;
+
+import javax.swing.SwingUtilities;
 
 public class Connect4{
 	private static Scanner input = new Scanner(System.in);
 	GameGrid grid;
+	MouseEvent e;
+	MouseListener f;
 
  	public Connect4(int rows, int cols, int size) {
 		this.grid = new GameGrid(rows, cols, size);
@@ -48,6 +57,7 @@ public class Connect4{
 				// column
 			} else {
 				System.out.println("player two, please chose next peice column");
+//				y = mouseClicked(f.);
 				y = input.nextInt() - 1;
 				x = checkCol(y);
 				if (x == -1) {
@@ -149,6 +159,13 @@ public class Connect4{
 		}
 
 		return 0;
+	}
+	public int mouseClicked(MouseEvent e) {
+		PointerInfo a = MouseInfo.getPointerInfo();
+		Point point = new Point(a.getLocation());
+		SwingUtilities.convertPointFromScreen(point, e.getComponent());
+		int y=(int) point.getY();
+		return y;
 	}
 
 	private int checkConnect4() {
